@@ -27,5 +27,5 @@
 #移除下发广告 = type=http-response, pattern=^https:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest, script-path=https://kelee.one/Resource/JavaScript/iMaiCai/iMaiCai_remove_ads.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% portal-portm.meituan.com, mall.meituan.com, businessapi.ksedt.com
+hostname = %APPEND% mall.meituan.com, businessapi.ksedt.com
 
